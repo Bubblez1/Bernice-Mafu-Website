@@ -1,0 +1,18 @@
+/* browser reset styles 
+Bernice Mafu Website
+2022044985
+January 2022*/
+body, h1, h2, h3, p, ul, li, img, a, button, header, nav, footer, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,23 @@
+/* Bernice Mafu Website
+2022044985
+January 2022
+Button styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}

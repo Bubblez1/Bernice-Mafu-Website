@@ -1,0 +1,52 @@
+/* Bernice Mafu Website
+2022044985
+January 2022
+Header and navigation styles */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+nav .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav li a {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.4s ease;
+}
+
+nav li a:hover {
+    background-color: #0056b3;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+}
